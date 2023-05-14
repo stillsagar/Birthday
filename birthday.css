@@ -1,0 +1,112 @@
+body{
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(black,purple,pink,white);
+    text-align: center;
+    color:#ffffff;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1,h2{
+    text-shadow: 2px 2px 1px black;
+}
+
+#anni{
+    width:150px;
+    border-radius: 50%;
+    border: 3px solid #EFB0C9;
+}
+
+#aniday{
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-title{
+    margin-top: 0;
+}
+.gift-hint{
+    margin-top:0;
+}
+
+.gift-img{
+    margin: 0 auto;
+    width:300px;
+    height: 300px;
+    border:6px solid white;
+    border-radius: 10px;
+    background-image: url("gify.jpg");
+    background-size: cover;
+}
+
+.gift-img:hover{
+    background-image: url("space.jpg");
+}
+.gift-two{
+    margin-top: 50px;
+}
+
+.gift-titletwo{
+    margin-top: 0;
+}
+.gift-hinttwo{
+    margin-top:0;
+}
+
+.gift-imgtwo{
+    margin: 0 auto;
+    width:300px;
+    height: 200px;
+    border:6px solid white;
+    border-radius: 10px;
+    background-image: url("gify.jpg");
+    background-size: cover;
+}
+
+.gift-imgtwo:hover{
+    background-image: url("space1.png");
+}
+
+#footer{
+    font-style: italic;
+    width:400px;
+    margin: 40px auto 20px;
+}
+
+
+
+/* h1{
+    font-family: 'Happy Monkey', cursive;
+
+}
+
+img{
+    width: 200px;
+    margin-top: 50px;
+    zborder-radius: 50%;
+}
+
+
+/* div{
+    text-align: center;
+    color:white;
+    margin: 5px;
+    padding:25px 0;
+    background: #e5383b;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div:hover{
+    background: #ba181b;
+} */
